@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Merriweather&family=Montserrat:wght@500&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+}
+.foot-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #bfd9f0;
+    box-shadow: 0.1px 0.9px 6px 1.7px rgb(81, 157, 212);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.social-media-icon i{
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+.social-media-icon i:hover{
+   transform: rotate(360deg);
+   transition: 0.7s ease-in-out;
+   color: rgb(46, 140, 213);
+}
+.email-section{
+    display: flex;
+    align-items: center;
+}
+.email-section a{
+    text-decoration: none;
+}
+.email-section a:hover{
+    color: black;
+}
+.email-section i{
+    margin: 3px 10px 0 0;
+}
+.contact{
+    margin: 0 0 0 7em;
+    display: flex;
+}
+.contact a:hover{
+    color: black;
+}
+.contact i {
+    margin: 3px 10px 0 0;
+}
+.com-name{
+    position: relative;
+    left: 14.3em;
+    top: 2em;
+}
+.shine{
+    font-size: 39px;
+    font-weight: bold;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #a5c2dc;
+
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 30em;
+    position: relative;
+    bottom: 29px;
+}
+.navbar ul li{
+    padding: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    border-bottom: 0.8px solid white;
+    transition: 0.5s ease-in;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.img img{
+    width: 100%;
+ opacity: 0.7;
+ object-fit: cover;
+}
+.clining-heading{
+    position: absolute;
+    top: 35em;
+    left: 50em;
+    z-index: 1;
+}
+.clining-heading p{
+    font-size: 30px;
+    padding: 3px;
+    z-index: 1;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    color: black;
+}
+.Y-p-c{
+    margin: 0 0 0 5px;
+    z-index: 1;
+}
+.clining-heading span{
+    position: relative;
+    left: 12px;
+    z-index: 1;
+    font-family: 'Poppins', serif;
+    color: white;
+}
+.MeetTeam{
+    position: relative;
+    right: 35em;
+    top: 4.5em;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: #7cda7c9e;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    font-family: 'Poppins', serif;
+}
+.MeetTeam:hover{
+    background-color: rgb(91, 202, 219);
+}
+.container-2{
+    width: 100%;
+    height: auto;
+}
+.head-1{
+    text-align: center;
+    font-family: 'Poppins', serif;
+    /* position: relative;
+    top: 4rem; */
+}
+.head-1 h1{
+    font-size: 30px;
+    padding: 1rem;
+    
+}
+.services-img-text{
+    display: flex;
+    margin-top: 5em;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.img-tex1{
+    display: grid;
+    /* justify-content: center; */
+    box-shadow: 0.7px 0.5px 5px 1px black;
+    padding: 20px;
+}
+.img-tex1 h1{
+   margin: 10px 0 10px;
+
+}
+.img-tex1 p{
+    font-family: 'Poppins', serif;
+    font-size: 13px;
+    gap: 10px;
+}
+.btn{
+    margin-top: 15px;
+}
+.btn button{
+    border: none;
+    background: none;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+.btn button:hover{
+    transition: 0.7s ease-in-out;
+    border-bottom: 2px solid green;
+    color: rgb(46, 140, 213);
+}
